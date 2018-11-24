@@ -3,14 +3,22 @@ font-family: 'Roboto Condensed', sans-serif;
 background-color:#249F49;
 font-size: 150%;
 }
+a {
+	text-decoration: none;
+	font-style: 
+}
 #logo {
 font-family: 'Russo One', sans-serif;
 font-size: 150%;
 }
+.panel {
+}
 footer {
-background-color: #6C6C6C;
-position: absolute;
-bottom: 0px;
-padding: auto;
-margin: auto;
+background-color: #333333;
+position: fixed;
+left: 0; bottom: 0;
+width: 100%;
+}
+.flexible-image {
+	max-width: 100%;
 }
